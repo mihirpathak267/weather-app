@@ -1,5 +1,5 @@
 const app = require('./app');
-
+const routes = require('./routes');
 
 app.use('/', routes);
 

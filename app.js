@@ -5,4 +5,4 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.urlencoded({extended:true}));
 
-module.export = app;
+module.exports = app;
